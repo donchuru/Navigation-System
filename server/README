@@ -1,0 +1,43 @@
+Name: David Onchuru
+SID: 1647809
+CCID: onchuru
+CMPUT 275, Winter 2022
+
+Assignment: Trivial Navigation System(Part 2)
+
+Included Files: 
+	*wdigraph.h
+	*digraph.h
+	*digraph.cpp
+	*dijkstra.cpp
+	*dijkstra.h
+	*server.cpp
+	*Makefile
+	*edmonton-roads-2.0.1.txt
+	*README
+
+Running Instructions:
+
+type "make server" to compile all .cpp files and link them to an executable file.
+type "make clean" to remove executable file and object files.
+
+Overview of the files in the solution folder and what they do:
+
+*edmonton-roads-2.0.1.txt: Description of Edmonton's road network
+
+*server.cpp: Our route finding server.
+It calls readGraph() which reads the Edmonton map data from the provided file and loads it into the WDigraph object passed to this function.
+This file also calls dijkstra() which computes the least cost paths that start from a given vertex.
+
+*dijkstra.cpp: contains the implementation of Dijkstra's algorithm. It uses a min heap.
+
+*dijkstra.h: Header file for Dijkstra's algorithm
+
+*digraph.h, wdigraph,h: Header files for the graphs we make
+
+*Makefile: compiles and links all files into executable called "server"
+
+*README: [meta]
+
+
+Received help from TAs Gurveer and Hamid. They helped identify subtle bugs
