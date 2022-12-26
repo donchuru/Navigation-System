@@ -1,11 +1,11 @@
 # Navigation System
 
 Included Files: 
-	*client subdir
-	*map subdir
-	*server subdir
-	*Makefile
-	*README
+	-client subdir
+	-map subdir
+	-server subdir
+	-Makefile
+	-README
 
 Running Instructions:
 
