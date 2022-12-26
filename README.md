@@ -1,13 +1,13 @@
 # Navigation System
 
-Included Files: 
-	-client subdir
-	-map subdir
-	-server subdir
-	-Makefile
-	-README
+## Included Files: 
+-client subdir
+-map subdir
+-server subdir
+-Makefile
+-README
 
-Running Instructions:
+## Running Instructions:
 
 type "make run" to run client and server in 2 different terminals
 type "make clean" to remove executable files, object files and pipes.
