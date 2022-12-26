@@ -20,7 +20,7 @@ Overview of the files in the solution folder and what they do:
 *map subdirectory: contains PNG files used by the plotter.
 
 *server: contains: 
-		*all the source code and header files from part 1
-		*edmonton- roads-2.0.1 txt: the deescription of Edmonton's road network
-		*server.cpp: route finding server
-		*Makefile
+		- all the source code and header files from part 1
+		- edmonton- roads-2.0.1 txt: the deescription of Edmonton's road network
+		- server.cpp: route finding server
+		- Makefile
