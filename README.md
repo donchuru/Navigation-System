@@ -1,5 +1,8 @@
 # Navigation System
 
+A naive Navigation system(Google Maps clone) implemented in C++.
+Currently only has data for Edmonton waypoints
+
 ## Included Files: 
 
 - client subdir
